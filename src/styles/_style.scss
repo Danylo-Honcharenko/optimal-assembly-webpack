@@ -1,0 +1,24 @@
+// import tailwind styles
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+// styles
+.containerMain {
+  @apply flex justify-center items-center h-screen text-center p-2;
+
+  .containerTwo {
+    @apply flex flex-col gap-4;
+
+    .logo {
+      @apply mx-auto w-40 rounded-full;
+    }
+    .title {
+      @apply text-3xl font-bold;
+    }
+
+    .desc {
+      @apply text-xl text-green-600;
+    }
+  }
+}
