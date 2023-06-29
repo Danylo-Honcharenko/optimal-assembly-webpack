@@ -1,19 +1,21 @@
-# Сборка Webpack
-Подключено и настроено всё кроме шрифтов. 
-Так же в сборке есть уже подключенный и настроенный Tailwind CSS.
+# Build webpack
+Everything is connected and configured except fonts.
+Also in the assembly there is already connected and configured Tailwind CSS.
 
-### Установка
-Клонируем репозиторий из GitHub. Далее использауя команду
-`npm/yarn install` загуржаем зависимости.
+## Installation
+Clone the repository from 
+GitHub. Next, use the `npm/yarn install` 
+command to download the dependencies.
 
-### Основные команды
-`npm start` - запускает development server
+## Basic commands
+`npm start` - starts development server
 
-`npm run dev` - запускает сборку в режиме development
+`npm run dev` - starts the build in development mode
 
-`npm run prod` - запускает сборку в режими production
+`npm run prod` - starts the build in production mode
 
-`npm run clear` - удаляет папку dist
+`npm run clear` - deletes dist folder
 
-_dist - папка которая создаётся при выполение 
-двух команд `npm run dev`, `npm run prod`_ 
+_dist - folder that is created by 
+running two commands `npm run dev`, 
+`npm run prod`_ 
